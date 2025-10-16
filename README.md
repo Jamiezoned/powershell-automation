@@ -48,7 +48,7 @@ catch {
   "$timestamp ERROR $_" | Out-File -FilePath $LogPath -Append -Encoding utf8
   throw
 }
-+```
+```
 
 ## 🗓️ Project Timeline & History
 
