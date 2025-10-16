@@ -48,3 +48,15 @@ catch {
   "$timestamp ERROR $_" | Out-File -FilePath $LogPath -Append -Encoding utf8
   throw
 }
+
+## 🗓️ Project Timeline & History
+
+- **Prototype scripts (internal use)** — Jan 2025 – Jul 2025  
+  Early automation scripts used in-shift to collect inventory and simplify troubleshooting.
+
+- **Refactor & public release** — Oct 2025  
+  Rewrote for idempotence, added logging, retry logic and UTF-8 CSV handling. Prepared for scheduled Task Scheduler runs.
+
+- **Next steps** — Ongoing  
+  Add SharePoint upload module and central monitoring hooks; schedule regular runs for fleet visibility.
+
