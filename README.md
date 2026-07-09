@@ -57,7 +57,3 @@ catch {
 
 - Refactor & public release — Oct 2025  
   Rewrote for idempotence, added logging, retry logic and UTF-8 CSV handling. Prepared for scheduled Task Scheduler runs.
-
-- **Next steps** — Ongoing  
-  Add SharePoint upload module and central monitoring hooks; schedule regular runs for fleet visibility.
-
