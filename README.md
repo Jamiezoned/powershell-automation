@@ -17,7 +17,7 @@ This simple script demonstrates how automation can replace manual inventory chec
 
 ---
 
-## 💻 Example Script
+## Example
 ```powershell
 param(
   [Parameter(Mandatory=$true)][string]$CsvPath,
