@@ -1,13 +1,13 @@
 # powershell-automation
 PowerShell script to automate workstation inventory and export results to central CSV.
 
-# ⚙️ PowerShell Automation – Computer Inventory Export
+# PowerShell Automation – Computer Inventory Export
 
 **Goal:** Automate the collection of system info (hostname, OS version, boot time) and export to a central CSV for asset tracking.
 
 ---
 
-## 🧩 Overview
+## Overview
 This simple script demonstrates how automation can replace manual inventory checks and maintain visibility across all devices.
 
 **Core actions:**
@@ -50,12 +50,12 @@ catch {
 }
 ```
 
-## 🗓️ Project Timeline & History
+## Project Timeline & History
 
-- **Prototype scripts (internal use)** — Jan 2025 – Jul 2025  
-  Early automation scripts used in-shift to collect inventory and simplify troubleshooting.
+- Prototype scripts (internal use) — Jan 2025 – Jul 2025  
+  Early automation scripts used in shift to collect inventory and simplify troubleshooting.
 
-- **Refactor & public release** — Oct 2025  
+- Refactor & public release — Oct 2025  
   Rewrote for idempotence, added logging, retry logic and UTF-8 CSV handling. Prepared for scheduled Task Scheduler runs.
 
 - **Next steps** — Ongoing  
